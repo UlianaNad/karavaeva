@@ -8,7 +8,7 @@ body{
 }
 header{
   
-    background: url("img/cover_photo1.png") center no-repeat;
+    background: url("/img/cover_photo1.png") center no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     height: 769px;
@@ -33,7 +33,7 @@ header{
 }
 .logo {
     display: block;
-    background: url("img/logo.svg");
+    background: url("/img/logo.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 165px;
@@ -102,14 +102,14 @@ h1{
 }
 .block-left{
     width: calc(100%/12*6);
-    background: url("img/left-img.png") center no-repeat;
+    background: url("/img/left-img.png") center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     height: 397px;
 }
 .block-right{
     width: calc(100%/12*6);
-    background: url("img/right-image.png") center no-repeat;
+    background: url("/img/right-image.png") center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     height: 397px;
@@ -182,7 +182,7 @@ h1{
 
 .container-green-photo{
     width: calc(100%/12*12);
-    background: url("img/photo1.png") center no-repeat;
+    background: url("/img/photo1.png") center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     height: 422px;
@@ -265,7 +265,7 @@ h1{
 }
 .photo-container{
     width: calc(100%/12*12);
-    background: url("img/6I0A7981.png") center no-repeat;
+    background: url("/img/6I0A7981.png") center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     height: 422px;
@@ -291,7 +291,7 @@ h1{
 }
 .photo-container2{
     width: calc(100%/12*12);
-    background: url("img/6I0A7957.png") center no-repeat;
+    background: url("/img/6I0A7957.png") center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     height: 422px;
@@ -391,7 +391,7 @@ h1{
     /* padding: 40px; */
 }
 .video-cover{
-    background: url("img/Group.png")center no-repeat;
+    background: url("/img/Group.png")center no-repeat;
     width: calc(100%/12*8);
     background-repeat: no-repeat;
     background-size: cover;
@@ -401,7 +401,7 @@ h1{
     justify-content: center;
 }
 .play{
-    background: url("img/Polygon\ 2.png")center no-repeat;
+    background: url("/img/Polygon\ 2.png")center no-repeat;
     width: 54px;
     height: 58px;
     background-repeat: no-repeat;
@@ -409,7 +409,7 @@ h1{
 }
 .contact-form{
     height: 370px;
-    background: url("img/zhopa.png")center no-repeat;
+    background: url("/img/zhopa.png")center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     width: calc(100%12/12);
@@ -548,7 +548,7 @@ input{
         padding-left: 5px;
     }
     .info-example{
-        padding: 10px;
+        padding: 5px;
     }
 }
 @media screen and (max-width: 390px){
