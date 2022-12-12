@@ -246,6 +246,7 @@ h1{
     padding-left: 35px;
     display: flex;
     align-items: center;
+    padding-bottom: 15px;
 }
 .read-more{
     font-size: 16px;
@@ -411,21 +412,20 @@ h1{
     background: url("/img/zhopa.png")center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+    width: calc(100%12/12);
 }
 .info-form{
    margin: 0 auto;
-   max-width:440px;
+   width:fit-content;
    padding: 10px;
    padding-top: 80px;
-   padding-left: 552px;
+   padding-left:550px ;
 }
 .form-name{
     color: white;
     font-size: 34px;
     line-height: 40px;
     font-weight: 500;
-    margin-bottom: 35px;
-    margin-top: 90px;
     text-transform: uppercase;
 }
 .submit{
@@ -449,7 +449,7 @@ h1{
 input{
     border: none;
     margin-top: 10px;
-    width: 279px;
+    width: 50%;
     height: 40px;
 }
 
@@ -471,6 +471,9 @@ input{
     .container-about-olga{
         width: 80%;
     }
+    .info-form{
+        padding-left:400px ;
+    }
 }
 @media screen and (max-width:975px){
     .menu-block {
@@ -484,6 +487,9 @@ input{
     }
     .container-about-olga{
         width: 90%;
+    }
+    .info-form{
+        padding-left:300px ;
     }
 }
 @media screen and (max-width: 850px){
@@ -530,6 +536,19 @@ input{
     .to-right, .to-left {
         margin-left: 13px;
         margin-right: 13px;
+    }
+    .info-form {
+        padding-top: 50px;
+        padding-left:30px ;
+    }
+    input{
+        width: 90%;
+    }
+    .name, .profession , .main-text{
+        padding-left: 5px;
+    }
+    .info-example{
+        padding: 10px;
     }
 }
 @media screen and (max-width: 390px){
